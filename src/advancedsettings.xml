@@ -1,0 +1,77 @@
+<advancedsettings>
+<videodatabase>
+<type>mysql</type> <!-- EDIT THESE VALUES TO MATCH YOUR LOCAL SETUP -->
+<host></host> <!-- EDIT THESE VALUES TO MATCH YOUR LOCAL SETUP -->
+<port></port> <!-- EDIT THESE VALUES TO MATCH YOUR LOCAL SETUP -->
+<user></user> <!-- EDIT THESE VALUES TO MATCH YOUR LOCAL SETUP -->
+<pass></pass> <!-- EDIT THESE VALUES TO MATCH YOUR LOCAL SETUP -->
+</videodatabase>
+<musicdatabase>
+<type>mysql</type> <!-- EDIT THESE VALUES TO MATCH YOUR LOCAL SETUP -->
+<host></host> <!-- EDIT THESE VALUES TO MATCH YOUR LOCAL SETUP -->
+<port></port> <!-- EDIT THESE VALUES TO MATCH YOUR LOCAL SETUP -->
+<user></user> <!-- EDIT THESE VALUES TO MATCH YOUR LOCAL SETUP -->
+<pass></pass> <!-- EDIT THESE VALUES TO MATCH YOUR LOCAL SETUP -->
+</musicdatabase>
+<videolibrary>
+<importresumepoint>true</importresumepoint>
+<importwatchedstate>true</importwatchedstate>
+<backgroundupdate>true</backgroundupdate>
+</videolibrary>
+<musiclibrary>
+<backgroundupdate>true</backgroundupdate>
+</musiclibrary>
+<videoscanner>
+<ignoreerrors>true</ignoreerrors> <!-- Set to true to silently ignore errors while scanning videos. This prevents the error dialogue box, so you don't have to keep hitting "yes" to keep scanning.-->
+</videoscanner>
+<splash>false</splash>
+<bginfoloadermaxthreads>2</bginfoloadermaxthreads>
+<myvideos>
+<extractflags>false</extractflags>
+<extractthumb>false</extractthumb>
+</myvideos>
+<lookandfeel>
+<enablerssfeeds>false</enablerssfeeds>
+</lookandfeel>
+<audiooutput>
+<guisoundmode>0</guisoundmode>
+<ac3passthrough>false</ac3passthrough>
+<dtspassthrough>false</dtspassthrough>
+<multichannellpcm>false</multichannellpcm>
+<truehdpassthrough>false></truehdpassthrough>
+<dtshdpassthrough>false</dtshdpassthrough>
+<mode>2</mode>
+</audiooutput>
+<videoscreen>
+<vsync>2</vsync>
+</videoscreen>
+<input>
+<enablemouse>false</enablemouse>
+<remoteaskeyboard>false</remoteaskeyboard>
+</input>
+<general>
+<addonnotifications>false</addonnotifications>
+</general>
+<services>
+<devicename>XBMC Server</devicename>
+<esallinterfaces>false</esallinterfaces>
+<escontinuousdelay>25</escontinuousdelay>
+<esenabled>true</esenabled>
+<esinitialdelay>750</esinitialdelay>
+<esmaxclients>20</esmaxclients>
+<esport>9777</esport>
+<esportrange>10</esportrange>
+<upnpannounce>true</upnpannounce>
+<upnprenderer>false</upnprenderer>
+<upnpserver>true</upnpserver>
+<webserver>true</webserver>
+<webserverpassword>xbmc</webserverpassword>
+<webserverport>8080</webserverport>
+<webserverusername>xbmc</webserverusername>
+<webskin>webinterface.default</webskin>
+<zeroconf>true</zeroconf>
+</services>
+<skinsettings>
+<setting type="bool" name="skin.confluence.FirstTimeRun">false</setting>
+</skinsettings>
+</advancedsettings>
