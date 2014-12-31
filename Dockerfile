@@ -19,7 +19,7 @@ ADD src/taglib-1.8 build-area/taglib-1.8/
 RUN chmod +x /root/start.sh  && \
 apt-get update && \
 apt-get install -y supervisor software-properties-common python-software-properties && \
-add-apt-repository -s ppa:team-xbmc/ppa && \
+add-apt-repository ppa:team-xbmc/ppa && \
 apt-get update && \
 apt-get install -y kodi-eventclients-xbmc-send && \
 apt-get build-dep xbmc -y && \
