@@ -22,7 +22,7 @@ apt-get install -y supervisor software-properties-common python-software-propert
 add-apt-repository ppa:team-xbmc/ppa && \
 apt-get update && \
 apt-get install -y kodi-eventclients-xbmc-send && \
-apt-get build-dep kodi -y && \
+apt-get build-dep xbmc -y && \
 cd build-area/taglib-1.8 && \
 cmake -DCMAKE_INSTALL_PREFIX=/usr/local -DCMAKE_RELEASE_TYPE=Release . && \
 make && \
