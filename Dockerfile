@@ -40,6 +40,7 @@ git checkout helix_headless  && \
 --prefix=/opt/kodi-server && \
 make && \
 make install && \
+chown -R nobody:users /opt/kodi-server && \
 cd / && \
 rm -rf  build-area && \
 apt-get clean && \
